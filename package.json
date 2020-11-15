@@ -1,0 +1,14 @@
+{
+  "name": "bookworm",
+  "version": "1.0.0",
+  "description": "A Bookworm Adventures clone in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "http-server"
+  },
+  "author": "Håkan Johansson",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "p5": "^1.1.9"
+  }
+}
