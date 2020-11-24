@@ -1,2 +1,2 @@
-# Bookworm Adventures clone
-A clone of the popular Bookworm Adventures Deluxe implemented in JavaScript.
+# Temple of Taiping
+A typing game based on mechanics from PopCap's popular [Bookworm Adventures](https://bookwormadventures.fandom.com/wiki/Bookworm_Adventures).

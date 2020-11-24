@@ -1,14 +1,24 @@
 {
-  "name": "bookworm",
+  "name": "temple_of_taiping",
   "version": "1.0.0",
-  "description": "A Bookworm Adventures clone in JavaScript",
-  "main": "index.js",
+  "description": "Type your way through the Temple of Taiping.",
+  "main": "source/main.js",
   "scripts": {
-    "test": "http-server"
+    "test": "webpack"
   },
   "author": "Håkan Johansson",
   "license": "GPL-3.0",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/hakanjo/temple_of_taiping.git"
+  },
   "dependencies": {
-    "p5": "^1.1.9"
+    "p5": "^1.1.9",
+    "webpack": "^5.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-google": "^0.14.0",
+    "webpack-cli": "^4.2.0"
   }
 }

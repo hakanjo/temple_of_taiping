@@ -1,7 +1,39 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #FCF3D9;
+  background-color: #7CC5DD;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Endlessknot.svg/1200px-Endlessknot.svg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-blend-mode: lighten;
+  font-family: "Texturina", serif;
+}
+
+header {
+  margin-top: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #000;
+  opacity: 0.6;
+  font-size: 1rem;
+  color: #FFF;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFF;
 }
 
 canvas {
